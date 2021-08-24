@@ -7,9 +7,8 @@
 
 </head>
 <body>
-<div class="header">
-    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-</div>
+<div class="header"></div>
+<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
 <label for="openSidebarMenu" class="sidebarIconToggle">
     <div class="spinner diagonal part-1"></div>
     <div class="spinner horizontal"></div>
@@ -40,11 +39,10 @@
     </div>
 </div>
 <script type="text/javascript">
-  var checkPointer = document.getElementById('openSidebarMenu')
-
+  var checkPointer=document.getElementById('openSidebarMenu')
   function openNav() {
-    checkPointer.checked = !checkPointer.checked
-    console.log('hello', checkPointer.checked)
+    checkPointer.checked=!checkPointer.checked;
+    console.log('hello',checkPointer.checked)
   }
 
 </script>
